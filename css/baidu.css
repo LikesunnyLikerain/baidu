@@ -19,6 +19,8 @@ body{
     padding-top:20px;
     padding-right:10px;
     text-align:right;
+	border-bottom:1px solid #f0f0f0;
+	padding-bottom: 20px;
 }
 .page-header nav a{
 	position: relative;
@@ -30,11 +32,6 @@ body{
 	
 }
 
-hr{
-	margin-top: 15px;
-	border-color: #f0f0f0;
-	opacity: 0.3;
-}
 /* header */
 
 .page-header nav a:last-child{
