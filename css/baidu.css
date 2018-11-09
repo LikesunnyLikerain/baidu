@@ -42,29 +42,33 @@ body{
     width:80px;
     height:25px;
     background-color:#38f;
-    color:#fff;
+    color:#00000;
     text-decoration:none;
     text-align:center;
     line-height:23px;
 	overflow: hidden;
-	transition: all 1.25s ease;
+	transition: all .75s ease;
 }
 .page-header nav a:last-child:hover{
-	background-color: #3388FF;
-	opacity: 0.5;
-	height: 330px;
+	background-color: #f9f9f9;
+	opacity: 0.9;
+	height: 525px;
 }
 .page-header nav ul{
 	list-style: none;
 }
 .page-header nav ul li{
-	height: 25px;
+	height: 70px;
+	line-height: 70px;
 	margin-top: 30px;
-	background-color: #3388FF;
+}
+.page-header nav ul li img{
+	vertical-align: middle;
 }
 .page-header nav ul li:hover{
 	color: #333333;
-	background-color: #F0F0F0;
+	background-color: #C6E2FF;
+	opacity: 0.8;
 }
 /* header下拉框 */
 
